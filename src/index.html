@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cubo Challenge</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.scss" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <form>
+        <input type="text" value="" placeholder="First name" id="first-name">
+        <input type="text" value="" placeholder="Last name" id="last-name">
+        <input type="text" value="" placeholder="Participation" id="participation">
+        <button type="submit" id="send-button">SEND</button>
+    </div>
+  </header>
+
+  <section id="data">
+    <h1>
+      DATA
+    </h1>
+    <h3>
+      Loren ipsum dolor sit amet, adpincing elit.
+    </h3>
+    <div class="data-area">
+      <table id="table">
+        <th class="row-number"></th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Participation</th>
+      </table>
+      <section id="chart">
+        <canvas id="pie"></canvas>
+      </section>
+    </div>
+  </section>
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+
+</html>

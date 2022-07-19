@@ -1,0 +1,99 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+$text-color: #333;
+
+header{
+  background-color: cyan;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#data{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+h1{
+  text-align: center;
+  color: $text-color;
+}
+
+h3{
+  text-align: center;
+  color: $text-color;
+}
+
+table{
+  border: 1px solid $text-color;
+  width: 600px;
+  color: $text-color;
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid $text-color;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+input{
+  border: 0px;
+  height: 40px;
+  margin: 10px;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+}
+
+button{
+  width: 100px;
+  height: 60px;
+  border: 2px solid white;
+  background-color: cyan;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  transition: ease 0.5s;
+  &:hover{
+    color: cyan;
+    background-color: white;
+    color: cyan;
+    transition: ease 0.5s;
+  }
+}
+
+#chart{
+  width: 400px;
+  margin-left: 60px;
+}
+
+.data-area{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.row-number{
+  min-width: 20px;
+}
